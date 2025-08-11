@@ -19,15 +19,15 @@ class AnalysisPlan:
 
         # Faculty/directory patterns suggest structured data might be available
         if any(keyword in url_lower for keyword in ['faculty', 'directory', 'staff', 'people']):
-            strategies.extend(['json_ld', 'directory_table', 'profile_cards'])
+            strategies.extend(['json_ld', 'directory_table', 'faculty_generic', 'profile_cards'])
 
         # Music department patterns
         if any(keyword in url_lower for keyword in ['music', 'conservatory', 'arts']):
-            strategies.extend(['json_ld', 'directory_table'])
+            strategies.extend(['json_ld', 'directory_table', 'faculty_generic'])
 
         # Default fallback order if no patterns match
         if not strategies:
-            strategies = ['json_ld', 'directory_table', 'profile_cards']
+            strategies = ['json_ld', 'faculty_generic', 'directory_table', 'profile_cards']
 
         # Remove duplicates while preserving order
         return list(dict.fromkeys(strategies))
