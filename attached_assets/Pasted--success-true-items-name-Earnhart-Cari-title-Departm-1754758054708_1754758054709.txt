@@ -1,0 +1,369 @@
+{
+  "success": true,
+  "items": [
+    {
+      "name": "Earnhart, Cari",
+      "title": "Department Chair",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/earnhart-cari.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Boone, Ben",
+      "title": "Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/boone-ben.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Bransby, Bruce",
+      "title": "Lecturer",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/bransby-bruce.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Briggs, Maria",
+      "title": "Associate Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/briggs-maria.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Cannell, Bryce",
+      "title": "Lecturer",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/bryce-cannell.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Darling, Matthew",
+      "title": "Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/darling-matthew.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Durst, Alan",
+      "title": "Lecturer",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/durst-alan.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Ferber, Mark",
+      "title": "Lecturer",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/mark-ferber.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Forcier, Cody",
+      "title": "Lecturer",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/cody-forcier.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Froelich, Kenneth",
+      "title": "Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/froelich-kenneth.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Gabrielson, David John",
+      "title": "Lecturer",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/gabrielson-david.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Giddens, Richard",
+      "title": "Associate Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/giddens-richard.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Henriques, Donald",
+      "title": "Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/henriques-donald.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Hiebert, Lenore",
+      "title": "Lecturer",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/hiebert-lenore.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Hiebert, Tom",
+      "title": "Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/hiebert-tom.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Hooshmandrad, Partow",
+      "title": "Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/hooshmandrad-partow.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Ishigaki, Miles",
+      "title": "Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/ishigaki-miles.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Karr, John",
+      "title": "Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/karr-john.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Klimo, Peter",
+      "title": "Assistant Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/klimo-peter.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Krikorian, Michael",
+      "title": "Assistant Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/krikorian-michael.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Lamb, Mason",
+      "title": "Lecturer",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/lamb-mason.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Lee, Otto",
+      "title": "Lecturer",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/otto-lee.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Loewenheim, Thomas",
+      "title": "Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/loewenheim-thomas.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Mason, Emily",
+      "title": "Associate Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/mason-emily.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "McKeithen, Steven",
+      "title": "Associate Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/mckeithen-steven.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Mowrer, Tony",
+      "title": "Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/mowrer-tony.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Porter, Laura",
+      "title": "Lecturer",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/laura-porter.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Radford, Anthony",
+      "title": "Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/radford-anthony.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Ruiz-Nuby, Angelica",
+      "title": "Lecturer",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/nuby-angelica.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Sheridan, Ashlea",
+      "title": "Lecturer",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/ashlea-sheridan.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Smith,Amelia",
+      "title": "Lecturer",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/smith-amelia.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Sobieralski, Nathan",
+      "title": "Assistant Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/sobieralski-nathan.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Toren-Immerman, Limor",
+      "title": "Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/toren-immerman.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Von Berg, Craig",
+      "title": "Lecturer",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/von%20berg-craig.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Whitehead, Corey",
+      "title": "Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/whitehead-corey.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    },
+    {
+      "name": "Zokaites, Russell",
+      "title": "Assistant Professor",
+      "email": null,
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/zokaites-russell.html",
+      "directory_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+      "socials": [],
+      "bio_snippet": null
+    }
+  ],
+  "total_found": 36,
+  "source_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+  "strategy_used": "directory_table",
+  "message": "Extracted 36 faculty members using directory_table strategy"
+}

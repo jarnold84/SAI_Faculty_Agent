@@ -1,0 +1,93 @@
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel, HttpUrl
+from time import perf_counter
+import sys
+import os
+
+# Add the project root to the path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+# Import the Replit schemas
+from schemas.normalized_lead import ScrapeResponse, NormalizedLead, EmailStatus
+from schemas.error_envelope import ErrorResponse
+
+# Import our modules (adjust function name to match Replit's)
+from analyze.plan import analyze_url
+from fetch.http import fetch_html
+
+app = FastAPI(title="Scraping Agent #1", version="0.1.0")
+
+class ScrapeRequest(BaseModel):
+    url: HttpUrl
+
+@app.get("/")
+async def root():
+    return {
+        "message": "Scraping Agent #1 API", 
+        "version": "0.1.0",
+        "endpoints": {
+            "/scrape": "POST - Main scraping endpoint",
+            "/health": "GET - Health check"
+        }
+    }
+
+@app.get("/health")
+async def health():
+    return {"status": "healthy", "agent": "scraping-agent-1"}
+
+@app.post("/scrape", response_model=ScrapeResponse)
+async def scrape(request: ScrapeRequest):
+    t0 = perf_counter()
+    url = str(request.url)
+    
+    try:
+        # Step 1: Analyze the URL to get a plan
+        plan = analyze_url(url)
+        
+        # Step 2: Fetch the HTML
+        html, fetch_notes = await fetch_html(url)
+        
+        # Step 3: Try strategies in order (we'll implement these next)
+        strategies = plan.strategies
+        items = []
+        used_strategy = None
+        
+        # For now, just return empty results - we'll add strategies next
+        # TODO: Implement actual extraction strategies
+        
+        ms = int((perf_counter() - t0) * 1000)
+        
+        return ScrapeResponse(
+            success=True,
+            items=items,
+            total_found=len(items),
+            source_url=url,
+            strategy_used=used_strategy,
+            message=f"Analyzed {url} in {ms}ms - ready for strategy implementation"
+        )
+        
+    except Exception as e:
+        ms = int((perf_counter() - t0) * 1000)
+        
+        # Return error using Replit's error schema
+        error_response = ErrorResponse(
+            error_code="SCRAPE_FAILED",
+            error_message=str(e),
+            source_url=url,
+            details={"ms": ms, "stage": "setup"}
+        )
+        
+        # For now, return as dict since FastAPI will handle it
+        # In production, you might want to raise HTTPException
+        return {
+            "success": False,
+            "items": [],
+            "total_found": 0,
+            "source_url": url,
+            "strategy_used": None,
+            "message": f"Error: {str(e)}"
+        }
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)

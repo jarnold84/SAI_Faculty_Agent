@@ -1,0 +1,21 @@
+
+{
+  "success": true,
+  "total_found": 36,
+  "strategy_used": "directory_table",
+  "source_url": "https://cah.fresnostate.edu/about/directory/music/index.html",
+  "items_sample": [
+    {
+      "name": "Earnhart, Cari",
+      "title": "Department Chair",
+      "email_status": "missing",
+      "profile_url": "https://cah.fresnostate.edu/about/directory/music/earnhart-cari.html"
+    }
+  ],
+  "validation_rules": {
+    "min_items": 35,
+    "max_items": 40,
+    "required_fields": ["name", "title", "profile_url"],
+    "profile_url_pattern": "https://cah.fresnostate.edu/about/directory/music/"
+  }
+}

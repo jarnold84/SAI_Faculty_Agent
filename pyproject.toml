@@ -1,0 +1,17 @@
+
+[project]
+name = "scraping-agent"
+version = "0.1.0"
+description = "University Music Faculty Directory Scraper"
+authors = ["Your Name <you@example.com>"]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.104.1",
+    "uvicorn[standard]>=0.24.0",
+    "httpx>=0.25.2",
+    "beautifulsoup4>=4.12.2",
+    "lxml>=4.9.3",
+    "pydantic>=2.5.0",
+    "pytest>=7.4.3",
+    "python-dotenv>=1.0.0",
+]
