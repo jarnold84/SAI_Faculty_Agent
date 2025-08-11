@@ -1,4 +1,3 @@
-
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 from schemas import ScrapeResponse, ErrorResponse
@@ -42,6 +41,12 @@ async def scrape_faculty_directory(request: ScrapeRequest, enrich_emails: bool =
                 raw_leads = extract_directory_table(html_content, request.url)
                 if raw_leads:
                     strategy_used = 'directory_table'
+                    break
+            elif strategy_name == 'faculty_generic':
+                from extract.strategies.faculty_generic import extract_faculty_generic
+                raw_leads = extract_faculty_generic(html_content, request.url)
+                if raw_leads:
+                    strategy_used = 'faculty_generic'
                     break
         
         # Phase 4: Enrich with emails from profiles (if enabled)
@@ -115,3 +120,6 @@ def register_routes(app: FastAPI):
             }
         except Exception as e:
             return {"error": str(e)}
+
+app = FastAPI(title="Faculty Scraping Agent API")
+register_routes(app)
