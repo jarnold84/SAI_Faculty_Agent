@@ -1,6 +1,5 @@
-from typing import Dict, List, Optional
+from typing import Dict, List
 from urllib.parse import urlparse
-import re
 
 class AnalysisPlan:
     def __init__(self, url: str):
@@ -13,19 +12,19 @@ class AnalysisPlan:
     def _select_strategies(self, url: str) -> List[str]:
         """Select extraction strategies based on URL patterns"""
         strategies = []
-
-        # Check URL patterns for hints
         url_lower = url.lower()
 
-        # Faculty/directory patterns suggest structured data might be available
+        # Faculty/directory patterns
         if any(keyword in url_lower for keyword in ['faculty', 'directory', 'staff', 'people']):
-            strategies.extend(['json_ld', 'directory_table', 'faculty_generic', 'profile_cards'])
+            strategies.extend(['json_ld', 'faculty_generic', 'directory_table', 'profile_cards'])
 
         # Music department patterns
         if any(keyword in url_lower for keyword in ['music', 'conservatory', 'arts']):
-            strategies.extend(['json_ld', 'directory_table', 'faculty_generic'])
+            # If not already included, add faculty_generic before table parsing
+            if 'faculty_generic' not in strategies:
+                strategies.extend(['json_ld', 'faculty_generic', 'directory_table'])
 
-        # Default fallback order if no patterns match
+        # Default fallback
         if not strategies:
             strategies = ['json_ld', 'faculty_generic', 'directory_table', 'profile_cards']
 
@@ -34,9 +33,7 @@ class AnalysisPlan:
 
     def _detect_js_need(self, url: str) -> bool:
         """Basic heuristic to detect if JS rendering might be needed"""
-        # For now, assume most university sites are server-rendered
-        # TODO: Implement more sophisticated detection
-        return False
+        return False  # Placeholder: most university sites are server-rendered
 
     def _extract_hints(self, url: str) -> Dict:
         """Extract hints from URL structure"""
@@ -51,7 +48,6 @@ class AnalysisPlan:
             'faculty_keywords': []
         }
 
-        # Extract potential faculty-related keywords
         faculty_terms = ['faculty', 'staff', 'people', 'directory', 'music', 'piano', 'voice', 'composition']
         hints['faculty_keywords'] = [term for term in faculty_terms if term in (domain + path)]
 
